@@ -1,0 +1,44 @@
+@charset "utf-8";
+@import "common";
+@import "learn-step";
+@import "stu-card";
+@import "friendLink";
+@import "partner";
+$unit: 1px;
+$white: rgb(255,255,255);
+$black: rgb(0,0,0);
+$theme-color: rgb(41, 176, 120);
+.col-md-3.well.goodness {
+    height: 215px;
+    line-height: 2.5;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    &:last-child {
+//      text-align: left;
+//      padding-left: 5rem;
+    }
+    p{
+        text-align: center;
+    }
+}
+@media screen and (min-width:768px) {
+    .goodness:last-child {
+        border-left: 1px dashed #cecece;
+
+    }
+}
+
+.container-main {
+    .item-title {
+        margin: 40px 0;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .col-parter-reset {
+        width: 20%;
+    }
+}
