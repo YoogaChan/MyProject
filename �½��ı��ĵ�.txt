@@ -1,5 +1,0 @@
-ls -al 查看全部
-
-
-lpf@ubuntu:~/yoogachan$ git add ./*
-lpf@ubuntu:~/yoogachan$ git commit -m 'my project'  //上传 更新说明
